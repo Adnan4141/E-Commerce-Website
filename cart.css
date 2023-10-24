@@ -1,0 +1,221 @@
+
+.cart{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.cart-left{
+
+  flex: 1;
+  margin: 80px 10px;
+
+}
+
+.cart-left .cart-left-heading{
+	border: 1px solid ;
+	box-shadow: 5px 6px 10px gray;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px px;
+
+}
+
+
+
+.cart-left .cart-items{
+margin: 15px 2px; 
+ border:1px solid;
+ box-shadow: 5px 10px 10px gray;
+ border-radius: 5px;
+ height:20vh;
+ display: flex;
+ flex-direction: row;
+ padding: 5px 10px;
+
+
+}
+.cart-info{
+	margin: 20px 00px 0 0;
+	 text-align: left;
+
+}
+
+
+.cart-left .cart-items img{
+margin: 0 5px 0 00px;
+width: 30%;
+height: 100%;
+}
+
+.cart-left .cart-items h2{
+  font-size: 25px;
+  font-weight:  bolder;
+}
+
+.cart-left .cart-left-heading input{
+	width: 35px;
+	height: 22px;
+}
+.cart-left .cart-items input[type="checkbox"]{
+ 
+ width: 20px;
+ height: 20px;
+ 
+
+}
+
+/*media query****************/
+
+
+@media (max-width: 800px)
+ {
+
+
+.cart-left .cart-items .check-area{
+ 
+position:relative;
+right: 30px;
+ 
+
+}
+
+
+
+
+
+.cart-left .cart-items img{
+margin: 0 5px 0 -50px;
+width: 30%;
+height: 100%;
+}
+
+}
+
+@media (max-width: 1200px)
+ {
+
+
+.cart-left .cart-items img{
+margin: 0 5px 0 -70px;
+width: 30%;
+height: 100%;
+}
+ 
+.cart-left .cart-items .check-area{
+ 
+position:relative;
+right: 40px;
+ 
+
+} 
+
+}
+
+
+
+
+.cart-left .cart-items .check-area{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row;
+ margin: 50px;
+
+
+ 
+}
+.cart-left .cart-left-heading label{
+	font-size: 25px;
+}
+.cart-left .cart-left-heading
+button{
+	font-size: 19px;
+	padding: 5px;
+	border-radius: 8px;
+
+}
+
+.cart-left .cart-item-action{
+	font-size: 25px;
+	margin: 10px;
+}
+
+.cart-left .cart-item-action span{
+	font-size: 30px;
+	margin: 3px;
+}
+
+
+.cart-left .cart-items h3{
+  font-size: 20px;
+
+}
+.cart-left .btn-div{
+	margin: 10px 00px 0 0;
+
+}
+
+.cart-item-action{
+	margin: 0 20px 0 0;
+}
+
+
+.cart-right{
+	flex: 1;
+	margin: 120px 25px;
+
+
+}
+
+.payment{
+	border: 1px solid;
+	padding: 10px 50px;
+	box-shadow: 5px 10px 5px gray;
+	border-radius: 5px;
+}
+  
+ .payment-info{
+ 
+  }
+.cart-right .paylist{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.pay-btn-area{
+	text-align: center;
+
+}
+.btn-pay{
+	font-size: 20px;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 5px 0 20px 0;
+}
+.payment-method button i{
+	font-size:40px ;
+
+	
+}
+
+.payment-method h1{
+	
+	margin: 0 0 30px 0;
+}
+
+
+
+.payment-method{
+	margin: 30px 0px;
+	padding: 40px 0;
+	border-radius: 5px;
+border: 1px solid;
+box-shadow: 5px 10px 10px gray;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
