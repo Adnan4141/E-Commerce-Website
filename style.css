@@ -537,12 +537,11 @@ letter-spacing: 2.5px;
 
 /******navbar collapse***********/
 
-#menu-icon{
-    display: none;
-}
+
 
 #menu-icon{
     display: none;
+    justify-content: center;
     text-align: center;
     width: 100%;
     font-size: 30px;
@@ -556,7 +555,7 @@ letter-spacing: 2.5px;
 @media (max-width: 800px) {
 
 #menu-icon{
-    display: block;
+    display: flex;
 }
 
 
