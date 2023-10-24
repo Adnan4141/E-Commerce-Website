@@ -541,7 +541,7 @@ letter-spacing: 2.5px;
     display: none;
 }
 
-.hidden{
+#menu-icon{
     display: none;
     text-align: center;
     width: 100%;
@@ -555,6 +555,11 @@ letter-spacing: 2.5px;
 
 @media (max-width: 800px) {
 
+#menu-icon{
+    display: block;
+}
+
+
 .hidden{
     display: none;
     text-align: center;
@@ -565,9 +570,6 @@ letter-spacing: 2.5px;
     background-color: lightsalmon;
 }
 
-#menu-icon{
-    display: block;
-}
 
 
 
