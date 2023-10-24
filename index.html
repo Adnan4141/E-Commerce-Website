@@ -11,19 +11,22 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-
+  
 
 
 
 
 <body>
-	<nav>
+
+     <div id="menu-icon" class="hidden"><i class="fa-solid fa-bars"></i></div>
+
+	<nav id="menu"> 
 		<ul class="upper-div flex-space-around">
-			<li><a href="#">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="register.html">Register</a></li>
 			<li><a href="login.html">Login</a></li>
-			<li><a href="#">Contract</a></li>
-			<li><a href="#">Logout</a></li>
+			<li><a href="contract.html">Contract</a></li>
+			<li><a href="login.html">Logout</a></li>
 			<li><a href=""><img class="nav-img" src="img/my-img.jpg" style="height:80px; width:80px"></a></li>
 		</ul>
 		<ul class="lower-div flex-space-around">
@@ -32,7 +35,9 @@
 			</li>
 			<li><i class="fa-solid fa-cart-shopping"></i>Cart2-Product $130</li>
 		</ul>
+		
 	</nav>
+
 	<header>
 		<div class="banner flex-space-around">
 			<marquee class="ad-text" behavior="" direction="">50% sales going on</marquee>
@@ -90,8 +95,8 @@
 				<h3 class="sidebar-head">Price</h3>
 				<ul>
 					<li><label for="price1"><input type="radio" id="price1" name="price" value="[21,50]">$21-$50</label></li>
-					<li><label for="price2"><input type="radio" name="" value="">$21-$50</label></li>
-					<li><label for="price3"><input type="radio" name="" value="">$21-$50</label></li>
+					<li><label for="price2"><input type="radio" name="" value="">$21-$57</label></li>
+					<li><label for="price3"><input type="radio" name="" value="">$33-$55</label></li>
 					<li><label for="price4"><input type="radio" name="" value="">$21-$50</label></li>
 					<li><label for="price5"><input type="radio" name="" value="">$21-$50</label></li>
 				</ul>
@@ -229,16 +234,37 @@
 </section>
 
 <!-------foooter start------------------->
-	<footer class="footer flex-space-around">
-		<div class="btn-area">
-			<label for="subscribe">Subscribe To The Channel</label>
-			<input class="footer-email" type="email" name="email" id="email" class="footer_input" placeholder="Enter your email">
-			<button class="btn btn-subscribe">Subscribe</button>
-		</div>
-		<div>
-			<p>&copy; Copyright 2023 ALi Express. All</p>
-		</div>
+	<footer class="footer">
+	 <div class="upper-footer row-flex">
+	 	<a href=""><i class="fa-brands fa-facebook"></i></a>
+	 	<a href=""><i class="fa-brands fa-twitter"></i></a>
+	 	<a href=""><i class="fa-brands fa-square-google-plus"></i></a>
+	 	<a href=""><i class="fa-brands fa-instagram"></i></a>
+	 	<a href=""><i class="fa-brands fa-youtube"></i></a>
+
+	 </div>
+
+	 <div class="lower-footer">
+	 	<ul class="footer-list">
+	 		
+   <li><a href="">Home</a></li>
+   <li><a href="">News</a></li>
+   <li><a href="">About</a></li>
+   <li><a href="">Contact</a></li>
+   <li><a href="">Our Team</a></li>
+
+	 	</ul>
+
+	 </div>
+
 	</footer>
+	<div class="bottom-text">
+	<p> Copyright &copy; 2023 ; Designed By <strong>Adnan</strong></p>
+  </div>
+
+<script src="./script/index.js"></script>
+
+
 
 </body>
 
